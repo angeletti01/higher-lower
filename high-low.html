@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Higher - Lower</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="high-low.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Higher - Lower</h1>
+        <p id="initialMessage"></p>
+        <div>
+            <form action="#">
+                <label for="guess"> Your Guess: </label>
+                <input id="guess" name="guess" type="text" required>
+            </form>
+            <button id="button" type="button" onClick="higherLower()" >Guess</button>
+            <button id="refresher" type="button" onClick="refresher()" >Play Again</button>
+            <p id="message"> </p>
+            <p id="listOfGuesses"> </p>
+        </div>
+    </div>
+    <script src="high-low.js"></script>
+</body>
+
+</html>
